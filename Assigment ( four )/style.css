@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    background:#75BF7A;
+}  
+
+.circle{
+    width: 350px;
+    height: 350px;
+    background-color: #75BF7A;
+    border-radius: 50%;
+}
+
+.logo{
+    position: relative;
+    width: 60.82px;
+    height: 60.82px;
+    border: 7px solid #75BF7A;
+    border-radius: 50%;
+    background-color: white;
+}
+.left-side-content{
+   margin-right: 20px;
+}
+.right-side-content{
+    margin-left: 20px;
+}
+.fouth-content{
+        margin-top: 29px;
+}
+.logo::before{
+    content:"" ;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -24px;
+    left: -24px;
+    border-top: 48px solid transparent;
+    border-left: 48px solid #f8f9fa;
+}
+
+
+.logo::after{
+    content:"" ;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -24px;
+    right: -24px;
+    border-top: 48px solid transparent;
+    border-right: 48px solid #f8f9fa;
+}
+.logo span{
+    text-align: center;
+    position: relative;
+    left: 14px;
+    font-size: 30px;
+    font-weight: 700;
+    z-index: 999;
+    color: #75BF7A;
+}
+.ride-section p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: right;
+    color: #9E9DA2;
+     font-family: 'Gilroy';
+}
+
+.ride-section h3{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Gilroy-black';
+}
+
+.Center-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.for-mobile{
+    display: none;
+}
+
+.section-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.mid-section{
+    overflow-x: hidden;
+}
+.responsive-section{
+    overflow-x: hidden; 
+}
+.section-end h2{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 4;
+    text-align: center !important;
+}
+.section-end span{
+       font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #75BF7A;
+}
+.two-none{
+    display: none;
+}
+.tere-heading h2{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 4;
+    text-align: center !important;
+}
+.tere-heading span{
+    font-family: 'Gilroy-black';
+    font-size: 42.39px;
+    font-weight: 800;
+    color: #75BF7A;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.Flexible-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 255px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.inline-section{
+    display: flex;
+    align-items: center;
+}
+.num-one p{
+     font-family: 'Gilroy';
+     color: #75BF7A;
+     font-weight: 500;
+     font-size: 88px;
+}
+.flexible-heading p{
+     font-family: 'Gilroy';
+     font-size: 33.94px;
+     font-weight: 600;
+     color: #000000;
+     line-height: 1;
+     margin-left: 6px;
+     margin-bottom: 0;
+}
+.flexible-para{
+    width: 100%;
+}
+
+.flexible-para p{
+     font-family: 'Gilroy';
+     font-size: 22px;
+     font-weight: 500;
+     color: #9E9DA2;
+     line-height: 23px;
+     max-width: 75%;
+     margin-bottom: 0;
+
+}
+
+.right-section img{
+    width: 230px;
+    margin-right: 2rem;
+}
+
+.left{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.top{
+    margin-top: 30px;
+}
+
+.adjust{
+    padding: 2rem;
+}
+
+.to-right{
+    margin: 0;
+    padding: 0;
+}
+
+.test img{
+    margin-right: 82px;
+}
+
+.mobile-setting{
+    display: none !important;
+}
+
+.m-section{
+    display: none;
+}
+
+.mob-para{
+    display: none !important;
+}
+
+footer{
+     background-color: #FFFFFF;
+     height: 227px;
+     margin-top: 10rem;
+    
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.abc{
+    margin-top: 20px;
+}
+
+.copyright p{
+    font-family: 'Gilroy';
+    color: #75BF7A;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center !important;
+}
+.col-section{
+    padding-top: 2rem;
+}
+.col-section p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+     font-family: 'Gilroy';
+     margin-bottom: 0;
+     text-align: center;
+}
+
+.list p{
+    color: #9E9DA2;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mob-button{
+    display: none;
+}
